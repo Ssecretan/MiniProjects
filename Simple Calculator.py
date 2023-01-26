@@ -1,19 +1,19 @@
-# This function adds two numbers
+# adds two numbers
 def add(x, y):
     return x + y
 
 
-# This function subtracts two numbers
+# subtracts two numbers
 def subtract(x, y):
     return x - y
 
 
-# This function multiplies two numbers
+# multiplies two numbers
 def multiply(x, y):
     return x * y
 
 
-# This function divides two numbers
+# divides two numbers
 def divide(x, y):
     return x / y
 
@@ -25,7 +25,7 @@ print("3.Multiply")
 print("4.Divide")
 
 while True:
-    # take input from the user
+    # input from the user
     choice = input("Enter choice(1/2/3/4): ")
 
     # check if choice is one of the four options
