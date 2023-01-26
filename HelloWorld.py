@@ -28,4 +28,3 @@ greet = 'Hello'
 # access character from 1st index to 3rd index
 print(greet[1:4])  # "ell"
 
-# In Python, strings are immutable (characters of a string cannot be changed)
