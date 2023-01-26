@@ -29,6 +29,3 @@ greet = 'Hello'
 print(greet[1:4])  # "ell"
 
 # In Python, strings are immutable (characters of a string cannot be changed)
-message = 'Hola Amigos'
-message[0] = 'H'
-print(message)
