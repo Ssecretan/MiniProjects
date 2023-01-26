@@ -1,16 +1,34 @@
-# This is a sample Python script.
+# This prints Hello, world!
+print('Hello, world!')
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Create a string using double quotes
+string1 = "Python programming"
+# Create a string using single quotes
+string1 = 'Python programming'
 
+# create string type variables
+name = "Python"
+print(name)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+message = "I love Python."
+print(message)
 
+# Indexing: One way is to treat strings as a list and use index values
+greet = 'hello'
+# access 1st index element
+print(greet[1]) # "e"
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# Negative Indexing: Similar to a list, Python allows negative indexing for its strings.
+greet = 'hello'
+# access 4th last element
+print(greet[-4]) # "e"
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Slicing: Access a range of characters in a string by using the slicing operator colon
+greet = 'Hello'
+# access character from 1st index to 3rd index
+print(greet[1:4])  # "ell"
+
+# In Python, strings are immutable (characters of a string cannot be changed)
+message = 'Hola Amigos'
+message[0] = 'H'
+print(message)
